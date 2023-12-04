@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="DKJEN">
+      <UniqueIdentifier>{cea1a72f-93b5-40c1-b438-eca232c03331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DKJEN\Base">
+      <UniqueIdentifier>{aa3ee7da-5e33-40d2-8712-18f1f8280c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DKJEN\Utilipy">
+      <UniqueIdentifier>{be0b49cf-5f9f-4333-a89d-d063df1029c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DKJEN\Imgui">
+      <UniqueIdentifier>{8cc35df4-360f-4e91-bdd2-c342afedceb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DKJEN\Management">
+      <UniqueIdentifier>{f7cf9383-a287-4799-88e7-f05c6b7c8aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DKJEN\Math">
+      <UniqueIdentifier>{73be5ec0-347e-4d2d-8f50-26983b897fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DKJEN\Shader">
+      <UniqueIdentifier>{a401da7e-afff-4101-8493-91fe4cf4e538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DKJEN\Type">
+      <UniqueIdentifier>{fdf38c82-c957-481f-aceb-4fbc77966666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hlsl">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImguiEx">
+      <UniqueIdentifier>{f81999c5-8832-4650-bad1-7d9fb5e33586}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include="..\..\..\2年前期課題\CG\DirectＸ\Object3d.hlsli">
+      <Filter>hlsl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Base\DxCommon.cpp">
+      <Filter>DKJEN\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Base\Function.cpp">
+      <Filter>DKJEN\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Base\ImageLoading.cpp">
+      <Filter>DKJEN\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Base\LightPSO.cpp">
+      <Filter>DKJEN\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Base\Log.cpp">
+      <Filter>DKJEN\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Base\PolygonPSO.cpp">
+      <Filter>DKJEN\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Base\SpritePSO.cpp">
+      <Filter>DKJEN\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Base\TexturePSO.cpp">
+      <Filter>DKJEN\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Base\WinApp.cpp">
+      <Filter>DKJEN\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Utilipy\Input.cpp">
+      <Filter>DKJEN\Utilipy</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Imgui\imguiManager.cpp">
+      <Filter>DKJEN\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Management\PSOCopileManagement.cpp">
+      <Filter>DKJEN\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Math\Math.cpp">
+      <Filter>DKJEN\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Shader\LightCompileShader.cpp">
+      <Filter>DKJEN\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Shader\PolygonCompileShader.cpp">
+      <Filter>DKJEN\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Shader\SpriteCompileShader.cpp">
+      <Filter>DKJEN\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Shader\TextureCompileShader.cpp">
+      <Filter>DKJEN\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Type\Camera.cpp">
+      <Filter>DKJEN\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Type\Obj3D.cpp">
+      <Filter>DKJEN\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Type\Polygon.cpp">
+      <Filter>DKJEN\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Type\Sphere.cpp">
+      <Filter>DKJEN\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Type\Sprite.cpp">
+      <Filter>DKJEN\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\Type\Texture.cpp">
+      <Filter>DKJEN\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\externals\imgui\imgui.cpp">
+      <Filter>ImguiEx</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\externals\imgui\imgui_demo.cpp">
+      <Filter>ImguiEx</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\externals\imgui\imgui_draw.cpp">
+      <Filter>ImguiEx</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\externals\imgui\imgui_impl_dx12.cpp">
+      <Filter>ImguiEx</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\externals\imgui\imgui_impl_win32.cpp">
+      <Filter>ImguiEx</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\externals\imgui\imgui_tables.cpp">
+      <Filter>ImguiEx</Filter>
+    </ClCompile>
+    <ClCompile Include="DKJEN\externals\imgui\imgui_widgets.cpp">
+      <Filter>ImguiEx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DKJEN\Base\DxCommon.h">
+      <Filter>DKJEN\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Base\Function.h">
+      <Filter>DKJEN\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Base\ImageLoading.h">
+      <Filter>DKJEN\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Base\LightPSO.h">
+      <Filter>DKJEN\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Base\Log.h">
+      <Filter>DKJEN\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Base\PolygonPSO.h">
+      <Filter>DKJEN\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Base\SpritePSO.h">
+      <Filter>DKJEN\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Base\TexturePSO.h">
+      <Filter>DKJEN\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Base\WinApp.h">
+      <Filter>DKJEN\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Utilipy\Input.h">
+      <Filter>DKJEN\Utilipy</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Utilipy\Pch.h">
+      <Filter>DKJEN\Utilipy</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Utilipy\rektyk.h">
+      <Filter>DKJEN\Utilipy</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Imgui\imguiManager.h">
+      <Filter>DKJEN\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Management\PSOCopileManagement.h">
+      <Filter>DKJEN\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Math\Math.h">
+      <Filter>DKJEN\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Shader\LightCompileShader.h">
+      <Filter>DKJEN\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Shader\PolygonCompileShader.h">
+      <Filter>DKJEN\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Shader\SpriteCompileShader.h">
+      <Filter>DKJEN\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Shader\TextureCompileShader.h">
+      <Filter>DKJEN\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Type\Camera.h">
+      <Filter>DKJEN\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Type\Obj3D.h">
+      <Filter>DKJEN\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Type\Polygon.h">
+      <Filter>DKJEN\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Type\Sphere.h">
+      <Filter>DKJEN\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Type\Sprite.h">
+      <Filter>DKJEN\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\Type\Texture.h">
+      <Filter>DKJEN\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\externals\imgui\imconfig.h">
+      <Filter>ImguiEx</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\externals\imgui\imgui.h">
+      <Filter>ImguiEx</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\externals\imgui\imgui_impl_dx12.h">
+      <Filter>ImguiEx</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\externals\imgui\imgui_impl_win32.h">
+      <Filter>ImguiEx</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\externals\imgui\imgui_internal.h">
+      <Filter>ImguiEx</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\externals\imgui\imstb_rectpack.h">
+      <Filter>ImguiEx</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\externals\imgui\imstb_textedit.h">
+      <Filter>ImguiEx</Filter>
+    </ClInclude>
+    <ClInclude Include="DKJEN\externals\imgui\imstb_truetype.h">
+      <Filter>ImguiEx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\..\2年前期課題\CG\DirectＸ\LightObject.VS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\2年前期課題\CG\DirectＸ\LightObject.PS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\2年前期課題\CG\DirectＸ\PolygonOdject3d.PS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\2年前期課題\CG\DirectＸ\SpriteObiject2d.PS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\2年前期課題\CG\DirectＸ\SpriteObiject2d.VS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\2年前期課題\CG\DirectＸ\TextureObiject3d.VS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\2年前期課題\CG\DirectＸ\TextureOdject3d.PS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\2年前期課題\CG\DirectＸ\PolygonObiject3d.VS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DKJEN\externals\imgui\LICENSE.txt">
+      <Filter>ImguiEx</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
